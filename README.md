@@ -303,6 +303,4 @@ Focus: Clinical impact, scalability, bias evaluation
 ---
 
 # 📌 Status
-
-Prototype development in progress.
-Model training and dashboard integration ongoing.
+Currently discussing project feasibility within proposed time frame.
