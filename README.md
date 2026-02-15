@@ -64,7 +64,7 @@ This ensures:
 
 # 🏗 System Architecture
 
-![Architecture Diagram](./Architecture_diagram_for_DVT.png)
+![Architecture Diagram](./Assets/Architecture_diagram_for_DVT.png)
 
 The system consists of two primary pipelines:
 
