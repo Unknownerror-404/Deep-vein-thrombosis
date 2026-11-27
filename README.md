@@ -244,11 +244,11 @@ Designed for:
 
 # Tech Stack
 
-## Programming Language: Python
-## Prose and Feature Extraction: OpenCV, Mediapipe, Numpy
-## Deep Learning Framework: Pytorch
-## Model Architecture: RNNs, Bi-LSTM
-## Evaluation: Scikit-learn, Grad-cam.
+- Programming Language: Python
+- Prose and Feature Extraction: OpenCV, Mediapipe, Numpy
+- Deep Learning Framework: Pytorch
+- Model Architecture: RNNs, Bi-LSTM
+- Evaluation: Scikit-learn, Grad-cam.
 
 
 ---
