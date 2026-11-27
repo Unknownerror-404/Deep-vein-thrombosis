@@ -1,5 +1,5 @@
 # Deep-vein-thrombosis
-##### Elements may be subject to change.
+
 # AI-Driven Hemodynamic Risk Stratification System  
 ### Early Detection of Perfusion Instability & Immobility-Associated Complications
 
@@ -62,7 +62,7 @@ This ensures:
 
 ---
 
-# 🏗 System Architecture
+# System Architecture
 
 ![Architecture Diagram](./Assets/Architecture_diagram_for_DVT.png)
 
@@ -137,10 +137,11 @@ Derived features include:
 
 ## Pose Extraction
 
-- ml5.js / pose-based joint detection  
+- pose-based joint detection  
 - Real-time or recorded video input  
 - Extraction of skeletal joint coordinates only  
-- No raw video storage  
+- No raw video storage
+- Training on the skeletal joint arrays per frame
 
 ---
 
