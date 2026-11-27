@@ -1,11 +1,11 @@
 # Deep-vein-thrombosis
 ##### Elements may be subject to change.
-# 🏥 AI-Driven Hemodynamic Risk Stratification System  
+# AI-Driven Hemodynamic Risk Stratification System  
 ### Early Detection of Perfusion Instability & Immobility-Associated Complications
 
 ---
 
-## 📌 Problem
+## Problem
 
 Hospitalized and homebound patients are at increased risk of:
 
@@ -30,7 +30,7 @@ Current monitoring systems are:
 
 ---
 
-## 🎯 Objective
+## Objective
 
 Develop a **non-invasive, multimodal AI system** that:
 
@@ -43,7 +43,7 @@ The system shifts monitoring from **static threshold alerts** to **dynamic predi
 
 ---
 
-## 🧠 Conceptual Framework
+## Conceptual Framework
 
 Rather than directly predicting DVT (a multifactorial condition), the system models:
 
@@ -70,7 +70,7 @@ The system consists of two primary pipelines:
 
 ---
 
-# 1️⃣ Hemodynamic Risk Prediction Pipeline
+# Hemodynamic Risk Prediction Pipeline
 
 ## Data Sources
 
@@ -133,7 +133,7 @@ Derived features include:
 
 ---
 
-# 2️⃣ Movement Detection & Compliance Pipeline
+# Movement Detection & Compliance Pipeline
 
 ## Pose Extraction
 
@@ -166,7 +166,7 @@ Bias mitigation:
 
 ---
 
-# 🔄 Risk Fusion Layer
+# Risk Fusion Layer
 
 The system integrates:
 
@@ -185,7 +185,7 @@ This enables:
 
 ---
 
-# 🖥 Clinical Dashboard
+# Clinical Dashboard
 
 Web-based dashboard providing:
 
@@ -203,7 +203,7 @@ Designed for:
 
 ---
 
-# 📦 Core Components
+# Core Components
 
 - Hemodynamic predictive ML model  
 - Movement detection model  
@@ -214,17 +214,17 @@ Designed for:
 
 ---
 
-# 📊 Deliverables
+# Deliverables
 
 - Trained predictive ML model  
 - Risk scoring engine prototype  
-- Mock clinical dashboard  
+- Prototype of the clinical dashboard  
 - Evaluation metrics report  
 - Deployment feasibility assessment  
 
 ---
 
-# ⚖ Ethical & Translational Considerations
+# Ethical & Translational Considerations
 
 ## Risks
 
@@ -240,68 +240,17 @@ Designed for:
 - Conservative alert threshold tuning  
 - Modular deployment architecture  
 
----
 
-# 👥 Team Structure
+# Tech Stack
 
-Organizational Model: **Hybrid Functional + Cross-Functional Pods**
+## Programming Language: Python
+## Prose and Feature Extraction: OpenCV, Mediapipe, Numpy
+## Deep Learning Framework: Pytorch
+## Model Architecture: RNNs, Bi-LSTM
+## Evaluation: Scikit-learn, Grad-cam.
 
-## Executive Roles
-
-- **Technical Architecture & Integration Lead** – Christoph Johnson  
-- **AI & Predictive Modeling Lead** – Shaun Karakkattu  
-- **Coding & Systems Engineering Lead** – Aniket Kuyate  
-- **Clinical Research & Risk Framework Lead** – Nicole Saad  
-- **Project Manager & Website Lead** – Ela Rees  
 
 ---
 
-## Cross-Functional Pods
-
-### Core Model Development
-Christoph + Shaun + Aniket  
-Focus: Data → Model → Backend Integration  
-
-### Clinical Validation & AI Alignment
-Nicole + Shaun + Christoph  
-Focus: Medical grounding & feature legitimacy  
-
-### Systems & Interface Integration
-Aniket + Ela + Christoph  
-Focus: API → Dashboard → UX  
-
-### Impact & Governance
-Nicole + Ela + Shaun  
-Focus: Clinical impact, scalability, bias evaluation  
-
----
-
-# 🚀 Impact
-
-- Reduced pressure injury incidence  
-- Improved nursing workflow compliance  
-- Potential adaptation for home monitoring  
-- Audit-ready reporting for healthcare systems  
-
----
-
-# 🛠 Tech Stack
-
-**Backend**
-- Python
-- XGBoost
-- FastAPI / Flask
-
-**Frontend**
-- JavaScript
-- ml5.js
-- Web-based dashboard framework
-
-**Deployment**
-- Server-hosted APIs
-- Modular, scalable architecture
-
----
-
-# 📌 Status
-Currently discussing project feasibility within proposed time frame.
+# Status
+The prototype development has been competed at both conceptual and technical levels
